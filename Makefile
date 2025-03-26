@@ -21,3 +21,7 @@ deploy:
 	docker push 561744971673.dkr.ecr.us-east-1.amazonaws.com/mlops:latest
 	
 all: install lint test format deploy
+
+
+# python -m venv .venv
+# source .venv/bin/activate
